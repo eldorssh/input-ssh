@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    background-color: gray;
+}
+
+.body {
+    position: relative;
+    margin-left: 30%;
+}
+
+.yellow {
+    position: absolute;
+    left: 30%;
+    background-color: yellow;
+    width: 80vh;
+    height: 94vh;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    /*display: flex;
+    align-items: start;
+    justify-content: space-around;*/
+}
+
+.yellow .top {
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.yellow .top .account {
+    background-color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.yellow .top .icon {
+    background-color: yellow;
+}
+
+.yellow .top .xicon {
+    background-color: yellow;
+    width: 25px;
+    height: 22px;
+}
+
+.yellow .top .xicon:hover {
+    background-color:rgb(192, 192, 192);
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.yellow .top .xicon:active {
+    background-color: rgb(30, 255, 0);
+}
+
+.yellow .buttons {
+    position: absolute;
+    top: 94%;
+    left: 70%;
+    background-color: yellow;
+}
+
+.yellow .buttons .cancel {
+    cursor: pointer;
+    border: none;
+    background-color: yellow;
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(83, 83, 83);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.yellow .buttons .cancel:hover {
+    color: black;
+    transition: 1s;
+}
+
+.yellow .buttons .cancel:active {
+    color: rgb(0, 255, 0);
+    transition: 1s;
+}
+
+
+
+.yellow .buttons .save {
+    cursor: pointer;
+    border: none;
+    background-color: yellow;
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(83, 83, 83);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.yellow .buttons .save:hover {
+    color: black;
+    transition: 1s;
+}
+
+.yellow .buttons .save:active {
+    color: rgb(0, 255, 0);
+    transition: 1s;
+}
+
+
+.yellow .white {
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    background-color: white;
+    padding: 20px 50px 360px 470px;
+    border-radius: 10px ;
+    /*box-shadow: -10px 10px black, 10px -10px black;*/
+    box-shadow:
+    0 2.8px 2.2px rgba(20, 20, 20, 0.034),
+    0 6.7px 5.3px rgba(29, 29, 29, 0.048),
+    0 12.5px 10px rgba(22, 22, 22, 0.06),
+    0 22.3px 17.9px rgba(29, 29, 29, 0.072),
+    0 41.8px 33.4px rgba(20, 20, 20, 0.086),
+    0 100px 80px rgba(12, 12, 12, 0.12);
+}
+
+.yellow .white .man {
+    position: absolute;
+    right: 80%;
+    bottom: 90%;
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.white .username {
+    position: absolute;
+    top: 15%;
+    right: 60%;
+}
+
+.white .username  p  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 60;
+}
+
+.white input {
+    padding: 10px 5px 0px 10px;
+}
+
+.white hr {
+    margin-top: 15px;
+}
+
+.yellow .name {
+    position: absolute;
+    top: 30%;
+    right: 19%;
+    display: flex;
+    column-gap: 30px;
+    background-color: white;
+    margin-top: 10px
+}
+
+.yellow .name input {
+    padding: 10px 5px 0 10px ;
+}
+
+.white .email {
+    position: absolute;
+    top: 48%;
+    right: 60%;
+}
+
+.white .bio {
+    position: absolute;
+    top: 65%;
+    right: 60%;
+}
+
+/*.white .bio input {
+    padding: 5px 5px 50px 150px;
+}*/
+
+p {
+    background-color: white;
+}
+
+input {
+    background-color: white;
+    border: none;
+}
+
+
